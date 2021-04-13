@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   namespace :api do
-    namespace :vi do  
-      resources :rooftops, only: [:index]
+    namespace :v1 do  
+      resources :rooftops, only: [:index, :create]
     end
   end
 end
