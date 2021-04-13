@@ -1,7 +1,7 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+lincoln_park = Neighborhood.create(name: "Lincoln Park")
+logan_square = Neighborhood.create(name: "Logan Square")
+theloop = Neighborhood.create(name: "Loop")
+river_north = Neighborhood.create(name: "River North")
+south_loop = Neighborhood.create(name: "South Loop")
+west_loop = Neighborhood.create(name: "West Loop")
+wicker_park = Neighborhood.create(name: "Wicker Park")
