@@ -1,4 +1,4 @@
 class RooftopSerializer
   include FastJsonapi::ObjectSerializer
-  attributes 
+  attributes :name, :address, :image_url, :description
 end

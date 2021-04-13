@@ -2,13 +2,13 @@ class Api::V1::RooftopsController < ApplicationController
 
   def index
     rooftops = Rooftop.all
-    render json: rooftops
+    render json: RooftopSerializer.new(rooftops)
   end
 
   def create
     rooftop = Rooftop.new(rooftop_parms)
     if rooftop.save 
-      render json: rooftop, status: :accepted
+      render json: SyllabusSerializer.new(rooftop), status: :accepted
     else
       render json: {errors: rooftop.error.full_messages}, status: :unprocessable_entity
     end
