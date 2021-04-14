@@ -1,5 +1,9 @@
 class Api::V1::RooftopsController < ApplicationController 
 
+  def home
+    redirect_to api_v1_rooftops_path
+  end
+
   def index
     rooftops = Rooftop.all
     render json: RooftopSerializer.new(rooftops)
