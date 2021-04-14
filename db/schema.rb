@@ -25,12 +25,12 @@ ActiveRecord::Schema.define(version: 2021_04_14_182216) do
     t.string "name"
     t.string "address"
     t.string "image_url"
+    t.string "website_url"
     t.string "description"
     t.bigint "user_id", null: false
     t.bigint "neighborhood_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "website"
     t.index ["neighborhood_id"], name: "index_rooftops_on_neighborhood_id"
     t.index ["user_id"], name: "index_rooftops_on_user_id"
   end
