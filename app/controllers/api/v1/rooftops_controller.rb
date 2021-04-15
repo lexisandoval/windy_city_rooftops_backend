@@ -23,7 +23,7 @@ class Api::V1::RooftopsController < ApplicationController
   private
 
   def rooftop_parms
-    params.require(:rooftop).permit(:name, :address, :image_url, :description, :user_id, :neighborhood_id)
+    params.require(:rooftop).permit(:name, :address, :image_url, :description, :neighborhood_id)
   end
 
 end
