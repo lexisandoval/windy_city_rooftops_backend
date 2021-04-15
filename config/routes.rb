@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       resources :rooftops, only: [:index, :create]
       resources :neighborhoods, only: [:index]
       resources :users, only: [:index, :create]
+      post '/login', to: 'auth#create'
     end
   end
 end

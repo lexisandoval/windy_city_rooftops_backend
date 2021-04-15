@@ -1,5 +1,6 @@
 class Api::V1::AuthController < ApplicationController
 
+  # this controller is in charge of logging in users
   skip_before_action :authorized, only: [:create]
 
   def create
