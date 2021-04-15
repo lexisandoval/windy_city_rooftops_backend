@@ -16,7 +16,10 @@ To run the web application, run the command $ rails s and open your browser to h
 
 You may also visit the API's website at https://windycityrooftops-api.herokuapp.com.
 
-Once open, you may browse through and add to a list of Chicago's best rooftops. Cheers!
+Once open, you may view rooftop and neighborhood data.
+
+Endpoints: /api/v1/rooftops
+           /api/v1/neighborhoods
 
 ## Contributing
 
