@@ -19,6 +19,7 @@ You may also visit the API's website at https://windycityrooftops-api.herokuapp.
 Once open, you may view rooftop and neighborhood data.
 
 Endpoints: /api/v1/rooftops
+
            /api/v1/neighborhoods
 
 ## Contributing
