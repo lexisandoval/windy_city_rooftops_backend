@@ -1,24 +1,31 @@
-# README
+# WindyCityRooftops API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails API for WindyCityRooftops, a web application that allows users to learn about Chicago's best rooftop bars and restaurants. 
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Clone this repository and then execute:
 
-* System dependencies
+    $ bundle install
+    $ rails db:migrate
+    $ rails db:seed
 
-* Configuration
+## Usage
 
-* Database creation
+To run the web application, run the command $ rails s and open your browser to http://localhost:3000.
 
-* Database initialization
+You may also visit the API's website at https://windycityrooftops-api.herokuapp.com.
 
-* How to run the test suite
+Once open, you may browse through and add to a list of Chicago's best rooftops. Cheers!
 
-* Services (job queues, cache servers, search engines, etc.)
+## Contributing
 
-* Deployment instructions
+Bug reports and pull requests are welcome on GitHub at https://github.com/lexisandoval/windy_city_rooftops_backend. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/lexisandoval/windy_city_rooftops_backend/blob/master/CODE_OF_CONDUCT.md).
 
-* ...
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Code of Conduct
+
+Everyone interacting in the RateMyCourse project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/lexisandoval/windy_city_rooftops_backend/blob/master/CODE_OF_CONDUCT.md).
