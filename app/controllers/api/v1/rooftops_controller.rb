@@ -1,6 +1,6 @@
 class Api::V1::RooftopsController < ApplicationController 
 
-  skip_before_action :authorized, only: [:index]
+  skip_before_action :authorized, only: [:index, :home]
 
   def home
     redirect_to api_v1_rooftops_path
