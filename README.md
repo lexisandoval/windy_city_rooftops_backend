@@ -14,9 +14,15 @@ Clone this repository and then execute:
 
 To run the web application, run the command $ rails s and open your browser to http://localhost:3000.
 
-You may also visit the API's website at https://windycityrooftops-api.herokuapp.com.
+You may visit the API's website at https://windycityrooftops-api.herokuapp.com.
 
 Once open, you may view rooftop and neighborhood data.
+
+
+
+You may also visit the main WindyCityRooftops website at https://windycityrooftops.netlify.app.
+
+**Please note that the websites may load slowly at first due to inactivity.**
 
 Endpoints: 
     
