@@ -12,7 +12,7 @@ Clone this repository and then execute:
 
 ## Usage
 
-To run the web application, run the command.. 
+To run the application, run the command.. 
     
     $ rails s 
     
