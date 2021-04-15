@@ -25,7 +25,7 @@ Endpoints:
     /api/v1/rooftops
     /api/v1/neighborhoods
     
-You may visit the API's website at https://windycityrooftops-api.herokuapp.com.
+You may visit the API's website [here](https://windycityrooftops-api.herokuapp.com).
     
 You may also visit the main WindyCityRooftops website [here](https://windycityrooftops.netlify.app) or its repository [here](https://github.com/lexisandoval/windy_city_rooftops_frontend.git).
 
