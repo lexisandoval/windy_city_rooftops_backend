@@ -4,6 +4,10 @@ This is a Ruby on Rails API for WindyCityRooftops, a web application that allows
 
 ## Installation
 
+Clone the [frontend repository](https://github.com/lexisandoval/windy_city_rooftops_frontend.git) and then execute:
+
+    $ open index.html
+
 Clone this repository and then execute:
 
     $ bundle install
