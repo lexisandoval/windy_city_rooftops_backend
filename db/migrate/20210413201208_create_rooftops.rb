@@ -6,7 +6,6 @@ class CreateRooftops < ActiveRecord::Migration[6.1]
       t.string :image_url
       t.string :description
       t.string :website_url
-      t.references :user, null: false, foreign_key: true
       t.references :neighborhood, null: false, foreign_key: true
 
       t.timestamps

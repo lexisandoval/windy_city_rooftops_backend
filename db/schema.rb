@@ -27,23 +27,11 @@ ActiveRecord::Schema.define(version: 2021_04_14_182216) do
     t.string "image_url"
     t.string "website_url"
     t.string "description"
-    t.bigint "user_id", null: false
     t.bigint "neighborhood_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["neighborhood_id"], name: "index_rooftops_on_neighborhood_id"
-    t.index ["user_id"], name: "index_rooftops_on_user_id"
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string "name"
-    t.string "username"
-    t.string "password_digest"
-    t.string "uid"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
   end
 
   add_foreign_key "rooftops", "neighborhoods"
-  add_foreign_key "rooftops", "users"
 end
