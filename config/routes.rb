@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     namespace :v1 do  
       resources :rooftops, only: [:index, :create]
       resources :neighborhoods, only: [:index]
+      resources :users, only: [:index, :create]
     end
   end
 end
