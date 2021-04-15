@@ -12,7 +12,11 @@ Clone this repository and then execute:
 
 ## Usage
 
-To run the web application, run the command $ rails s and open your browser to http://localhost:3000.
+To run the web application, run the command.. 
+    
+    $ rails s 
+    
+..and open your browser to http://localhost:3000.
 
 Once open, you may view rooftop and neighborhood data.
 
