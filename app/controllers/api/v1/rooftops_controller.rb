@@ -5,7 +5,7 @@ class Api::V1::RooftopsController < ApplicationController
   end
 
   def index
-    rooftops = Rooftop.all
+    rooftops = Rooftop.all.order("name")
     render json: RooftopSerializer.new(rooftops)
   end
 
