@@ -21,11 +21,11 @@ class Api::V1::RooftopsController < ApplicationController
   def update
     rooftop = Rooftop.find(params[:id])
     rooftop.update(rooftop_parms)
-    
+
     if rooftop.save
       render json: rooftop, status: :accepted
     else
-      render json: { errors: rooftop.errors.full_messages }, status: :unprocessible_entity
+      render json: { errors: rooftop.errors.full_messages }, status: :unprocessable_entity
     end
   end
 
