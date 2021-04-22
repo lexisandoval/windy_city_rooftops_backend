@@ -27,7 +27,7 @@ Endpoints:
     
 You may visit the API's website [here](https://windycityrooftops-api.herokuapp.com).
     
-You may visit the WindyCityRooftops frontend repository [here](https://github.com/lexisandoval/windy_city_rooftops_frontend.git) or its website [here](https://windycityrooftops.netlify.app) (may need a page refresh in order to load rooftop data).
+You may visit the WindyCityRooftops frontend repository [here](https://github.com/lexisandoval/windy_city_rooftops_frontend.git) or its website [here](https://windycityrooftops.netlify.app) (it may take around 10-15 seconds for rooftop data to load).
 
 **Please note that the websites may load slowly at first due to inactivity.**
 
